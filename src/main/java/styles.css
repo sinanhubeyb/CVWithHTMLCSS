@@ -234,3 +234,42 @@ body {
 .resume .resume_right .resume_hobby ul li:last-child:before {
     display: none;
 }
+.collapsible {
+    background-color: #eee;
+    color: rgb(207, 63, 63);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 2px;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    font-style: normal;
+}
+table,  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#stats {
+    width: 100%;
+}
+
+#stats tr:nth-child(even) {
+    background-color: white;
+
+}
+#stats tr:nth-child(odd) {
+    background-color: rgb(121, 171, 212);
+
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#content {
+    overflow: hidden;
+    display: none;
+}
